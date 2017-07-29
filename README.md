@@ -136,7 +136,7 @@ note is that a Monad's `map` is a derived combinator meaning you get `map` for f
 so you meet the requirement for having a conversion both for the Free Monad and Free Functor if you provide a conversion
 to a real Monad. This pays the cost of getting a Free Functor and a Free Monad.
 
-######So how do I do the conversion from the Free Monad to a real Monad?
+###### So how do I do the conversion from the Free Monad to a real Monad?
 A Natural Transformation and the imposition that the result data type of the Natural Transformation has a Monad 
 implementation.
 
